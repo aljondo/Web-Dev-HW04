@@ -62,7 +62,8 @@ defmodule Calc do
     end
   end
 
-  def find_indexes(collection, function) do
+  #attributed from https://stackoverflow.com/questions/18551814/find-indexes-from-list-in-elixir
+  def find_indexes(collection, function) do 
     do_find_indexes(collection, function, 0, [])
   end
 
